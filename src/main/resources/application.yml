@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: zhming
+logging:
+  level:
+    org:
+      springframework: debug
+      apache:
+        ibatis: debug
